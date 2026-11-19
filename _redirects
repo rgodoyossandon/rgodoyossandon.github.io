@@ -1,0 +1,38 @@
+# 301 redirects from the legacy Wix site (colegioacademiatarapaca.com) to the new
+# pages. Source of truth for the Cloudflare Redirect Rules: apply them there (the
+# school server does not read this file). Keep each old path pointing to the
+# closest equivalent page, never to the home page without a reason.
+
+# Team pages (index and the six sub-pages)
+/quienes-somos                          /nuestro-colegio/equipo/          301
+/copia-de-organizacion                  /nuestro-colegio/equipo/          301
+/copia-de-sostenedor-1                  /nuestro-colegio/equipo/          301
+/copia-de-equipo-directivo              /nuestro-colegio/equipo/          301
+/copia-de-funcionarios-1                /nuestro-colegio/equipo/          301
+/asistentes-de-la-educacion             /nuestro-colegio/equipo/          301
+/copia-de-asistentes-de-la-educacion    /nuestro-colegio/equipo/          301
+
+# Educational project, mission and vision
+/copia-de-quienes-somos                 /nuestro-colegio/proyecto-educativo/   301
+
+# Documents and regulations
+/doc-a-leer                             /documentos/                      301
+/about-6                                /documentos/                      301
+
+# Enrollment and admission
+/doc-presentar                          /#admision                        301
+/matricular-basica                      /#admision                        301
+/matricular-media                       /#admision                        301
+/preguntas-frecuentes                   /#admision                        301
+
+# News, notices, gallery, contact
+/noticias                               /noticias/                        301
+/comunicados-anteriores                 /comunicados/                     301
+/fotos-2017                             /galeria/                         301
+/contactenos                            /contacto/                        301
+/links-de-interes                       /#accesos                         301
+/inicio                                 /                                 301
+
+# Legacy pages with no equivalent yet (extracurricular activities and their
+# enrollment forms): decide where they go before launch.
+#   /extraescolares  /inscripcion-acle
